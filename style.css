@@ -7,13 +7,13 @@ body {
   background: linear-gradient(to bottom, #1CB5E0, #000046); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-textarea{
+textarea {
   background: transparent;
   border: none;
   resize: none;
-  color: #ffffff;
   border-left: 1px solid black;
   padding: 10px;
+  color: unset;
 }
 
 .jumbotron {
@@ -25,16 +25,13 @@ textarea{
   border-bottom: 10px solid rgb(4, 26, 153);
 }
 
-.description{
-  white-space: pre-wrap;
-}
-
 .time-block{
   text-align: center;
   border-radius: 15px;
-  background: #0F2027;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to bottom, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to bottom, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.description{
+  white-space: pre-wrap;
 }
 
 .row {
@@ -47,23 +44,45 @@ textarea{
   background: #667db6;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to bottom, #667db6, #0082c8, #0082c8, #667db6);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to bottom, #667db6, #0082c8, #0082c8, #667db6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  color: #f7f2f2;
   border-top: 1px dashed #000000;
+  color: black;
 }
 
-.past {
-  background-color: #d3d3d3;
+/* .col-md-10.description.textbox {
   color: white;
+} */
+
+.past {
+  /* fallback for old browsers */
+  background: #c31432;;
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-linear-gradient(to bottom, #c31432, #240b36);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(to bottom, #c31432, #240b36);; 
+  color: rgb(207, 253, 189);
+  /* font-weight: 300; */
 }
 
 .present {
-  background-color: #ff6961;
-  color: white;
+  /* fallback for old browsers */
+  background: #0F2027;
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-linear-gradient(to bottom, #2C5364, #203A43, #0F2027);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(to bottom, #2C5364, #203A43, #0F2027);  
+  color: rgb(238, 67, 253);
+  /* font-weight: 650; */
 }
 
 .future {
-  background-color: #5df05d;
-  color: white;
+  /* fallback for old browsers */
+  background: #00F260;
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-linear-gradient(to top, #0575E6, #00F260);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(to top, #0575E6, #00F260);
+  color: rgb(10, 29, 136);
+  /* font-style: italic; */
 }
 
 .saveBtn {
@@ -74,6 +93,7 @@ textarea{
   background: -webkit-linear-gradient(to bottom, #667db6, #0082c8, #0082c8, #667db6);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to bottom, #667db6, #0082c8, #0082c8, #667db6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   color: #f7f2f2;
+
 }
 
 .saveBtn i:hover {
