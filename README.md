@@ -23,4 +23,4 @@
 
 > https://govepitr.github.io/work-day-scheduler/
 
-![Scheduler Screenshot](https://github.com/Govepitr/work-day-scheduler/blob/feature/starting-point/Screenshot.png?raw=true "Scheduler Screenshot")
+![Scheduler Screenshot](https://github.com/Govepitr/work-day-scheduler/blob/main/Screenshot.png?raw=true "Scheduler Screenshot")
