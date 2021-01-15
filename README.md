@@ -23,4 +23,4 @@
 
 > 
 
-![ Screenshot](<<insert screenshot github path>>?raw=true "Portfolio Screenshot")
+![Scheduler Screenshot](https://github.com/Govepitr/work-day-scheduler/blob/feature/starting-point/Screenshot.png?raw=true "Scheduler Screenshot")
