@@ -1,7 +1,7 @@
 # Work-Day Scheduler!
 ---
 
-## : An online planner that allows you to input and keep track of your daily tasks by the hour!
+## An online planner that allows you to input and keep track of your daily tasks by the hour!
 
 - Current day will be displayed as you load website.
 
